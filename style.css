@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    margin: 50px ;
+    font-size: 4rem;   
+}
+.pads{
+    width: 100%;
+    display: flex;
+}
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+.pad1{
+    background-color: palevioletred;
+}
+.pad2{
+    background-color: peru;
+}
+.pad3{
+    background-color: royalblue;
+}
+.pad4{
+    background-color: tan;
+}
+.pad5{
+    background-color: tomato;
+}
+.pad6{
+    background-color: yellow;
+}
